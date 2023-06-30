@@ -11,9 +11,11 @@ header {
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+  width: 80%;
 }
 /* MAIN */
 .first-div {
+  font-family: "Poppins", sans-serif;
   background-color: rgb(0, 136, 169);
   padding: 70px 70px;
   color: white;
@@ -35,6 +37,49 @@ header {
   padding-top: 30px;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.first-articles {
+  background-color: white;
+  padding: 50px auto;
+  text-align: center;
+}
+
+.first-articles h1 {
+  font-weight: 600;
+}
+
+/* .first-articles span {
+  padding: 50px auto;
+} */
+
+.first-articles h1 {
+  text-align: center;
+}
+
+.first-articles span {
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+  font-size: smaller;
+  padding: 10px;
+}
+
+.articles {
+  text-align: start;
+  line-height: 1.3rem;
+}
+
+.first-articles ul li {
+  text-align: start;
+  padding-left: 35px;
+  list-style-type: armenian;
+}
 
 /* TABELLE */
 
